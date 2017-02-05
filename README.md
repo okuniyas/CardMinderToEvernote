@@ -31,15 +31,11 @@ Open the **Import folder...** panel by [Tool] - [Import folder...] of Evernote c
 Then [Add] your folder, for example;
 
 + Folder : Your folder path ended yyyyMMdd such as %HOME%/Desktop/CardMinderToEvernote/20170205
-
 + Sub folder : NO
-
 + Notebook : Inbox
-	I recommend that you check imported Notes in Inbox first then you move them in your Notebook for your Business Cards.
-
+    - I recommend that you check imported Notes in Inbox first then you move them in your Notebook for your Business Cards.
 + Source : Delete
-	You can keep PDF files local but I delete them after Evernote successly imported them.
-
+    - You can keep PDF files local but I delete them after Evernote successly imported them.
 
 ### Move namecards in Inbox folder of CardMinder to other folder
 
