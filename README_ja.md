@@ -76,18 +76,18 @@ PDFファイルのマージのためにこのモジュールを使っていま�
   
 - CardMinderの導入先が正しいか確認します
 
-``
+```
     source_directory = os.environ["HOME"] + "/Documents/CardMinder/CardMinder DB.cxdb/Images/"
     connection = sqlite3.connect(os.environ["HOME"] + "/Documents/CardMinder/CardMinder DB.cxdb/CardMinder1.sqldb")
-``
+```
 
 必要な修正をしてください。
 
 - 作業フォルダが正しいか確認します
 
-``
+```
     destination_directory = os.environ["HOME"] + "/Desktop/CardMinderToEvernote/" + today
-``
+```
 
 - [Run]-[Run Module (F5)]から実行します
 

@@ -72,16 +72,16 @@ Then put CardMinderToEvernote.py in above folder.
   
 - Check if CardMinder folder is correct.
 
-``
+```
     source_directory = os.environ["HOME"] + "/Documents/CardMinder/CardMinder DB.cxdb/Images/"
     connection = sqlite3.connect(os.environ["HOME"] + "/Documents/CardMinder/CardMinder DB.cxdb/CardMinder1.sqldb")
-``
+```
 
 - Check if the folder to place generated PDF files are correct.
 
-``
+```
     destination_directory = os.environ["HOME"] + "/Desktop/CardMinderToEvernote/" + today
-``
+```
 
 - Run by [Run]-[Run Module (F5)]
 
